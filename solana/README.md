@@ -33,13 +33,18 @@
    cargo install --git https://github.com/coral-xyz/anchor anchor-cli --locked
    ```
 
-2. 编译合约：
+2. 初始化工程
+   ```bash
+   anchor init 工程名称
+   ```
+
+3. 编译合约：
 
    ```bash
    anchor build
    ```
 
-3. 运行测试：
+4. 运行测试：
 
    ```bash
    anchor test

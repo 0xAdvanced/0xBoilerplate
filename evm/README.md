@@ -33,6 +33,12 @@
 以 Hardhat 为例：
 
 ```bash
+
+// 初始化工程
+npm install --save-dev hardhat
+npx hardhat init
+
+// 安装依赖
 npm install
 npx hardhat compile
 npx hardhat test
